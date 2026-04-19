@@ -92,7 +92,7 @@ cd backend
 npm run dev
 ```
 
-Backend runs on `http://localhost:5000`.
+Backend runs on `import.meta.env.VITE_API_URL`.
 
 ### 4) Run frontend
 
