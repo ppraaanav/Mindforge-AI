@@ -26,7 +26,7 @@ const connectDatabase = async () => {
 // ✅ CORS FIX (IMPORTANT FOR VERCEL FRONTEND)
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "*", // allow frontend
+    origin: process.env.CLIENT_URL || "http://localhost:5173",
     credentials: true
   })
 );
